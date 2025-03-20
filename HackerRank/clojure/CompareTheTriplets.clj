@@ -1,7 +1,7 @@
 ;;
 ;; Problem Statement from HackerRank
 ;;
-;; You can read the full problem state here: https://www.hackerrank.com/challenges/apple-and-orange/problem
+;; You can read the full problem state here: https://www.hackerrank.com/challenges/compare-the-triplets
 ;;
 
 ;;
@@ -14,7 +14,11 @@
 ;;
 
 (defn compareTriplets [a b]
-  (let [result (frequencies (map (fn [x y] (cond (> x y) :a (< x y) :b :else :none)) a b))] [(get result :a 0) (get result :b 0)]))
+  (let
+   [result
+    (frequencies
+     (map (fn [x y] (cond (> x y) :a (< x y) :b :else :none)) a b))]
+    [(get result :a 0) (get result :b 0)]))
 
 (def fptr (get (System/getenv) "OUTPUT_PATH"))
 
