@@ -14,9 +14,6 @@ The repository is organized into the following main directories:
 - **HackerRank/**  
   Contains solutions for HackerRank problems, organized by programming language.
 
-- **Templates/**  
-  Includes commonly used starter templates for various programming languages to help you get started quickly on new problems.
-
 ---
 
 ## Getting Started
@@ -30,10 +27,7 @@ The repository is organized into the following main directories:
 2. **Explore the Directories:**  
    Browse the platform-specific folders to find problem solutions and refer to the language-specific subdirectories for code examples.
 
-3. **Use the Templates:**  
-   Navigate to the **Templates/** folder to find boilerplate code for popular programming languages, which can help you jumpstart your problem solving.
-
-4. **Contribute:**  
+3. **Contribute:**  
    If you have a new solution or an improvement to an existing one, please refer to the [CONTRIBUTING.md](CONTRIBUTING.md) guidelines before submitting a pull request.
 
 ---
